@@ -1,0 +1,19 @@
+html {
+    font-family: comforta;
+}
+
+.index-body {
+    flex-direction: column;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.body-user-page {
+    height: 120vh;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: comforta;
+    src: url(/fonts/Comfortaa/Comfortaa-Medium.ttf),
+        url(/fonts/Comfortaa/Comfortaa-Light.ttf),
+        url(/fonts/Comfortaa/Comfortaa-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: firaSans;
+    src: url(/fonts/Fira_Sans_Condensed/FiraSansCondensed-ExtraLight.ttf),
+        url(/fonts/Fira_Sans_Condensed/FiraSansCondensed-Light.ttf),
+        url(/fonts/Fira_Sans_Condensed/FiraSansCondensed-Bold.ttf);
+}

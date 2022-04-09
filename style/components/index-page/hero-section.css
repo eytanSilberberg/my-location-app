@@ -1,0 +1,24 @@
+.hero-content {
+
+    margin: 0;
+    background-image: url(/imgs/1.jpeg);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+}
+
+.hero-h1 {
+
+    align-items: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: var(--clr6);
+}
+
+
+
+.hero-content {
+    width: 100%;
+}

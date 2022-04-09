@@ -1,0 +1,13 @@
+.body-user-page {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-wrapper {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.form-input-wrapper {
+    width: 100%;
+}

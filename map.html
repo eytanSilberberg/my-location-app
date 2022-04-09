@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body class="map-body" onload="initMap()">
+    <div class="header-wrapper">
+        <header class="main-header flex main-layout">
+            <h1 class="logo">UR<span>Lost</span></h1>
+            <nav></nav>
+        </header>
+    </div>
+    <header>
+        <div class="header-container"></div>
+    </header>
+    <div id=" position">
+    </div>
+    <div id="map"></div>
+    <section class="download-wrapper">
+        <a href="#" onclick="downloadCSV(this)" download="exported-data.csv">Donwload locations</a>
+    </section>
+    <button onclick="onGetPosition()"><img src="imgs/icons8-my-location-60.png" alt=""></button>
+    <div class="button-wrapper">
+        <ul class="locations">
+
+        </ul>
+    </div>
+    <footer class="map-footer flex justify-center align-center">
+        <h1 class="logo">UR<span>Lost</span></h1>
+        <small>cOfFeErIgHtS</small>
+        <ul class="flex clean-list">
+            <li><a href=""></a><img src="imgs/facebook-logo-png-38347.png" alt=""></li>
+            <li><a href=""></a><img src="imgs/instagram-icon-960.png" alt=""></li>
+            <li><a href=""></a><img src="imgs/twitter-icon-66.png" alt=""></li>
+        </ul>
+    </footer>
+
+    <p id="locationError"></p>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF4FHaxqJUZ9tPSbkNlkdl2ZSZPhQS4no&callback=initMap"></script>
+    <script src="script/userService.js"></script>
+    <script src="script/storageService.js"></script>
+    <script src="script/placeService.js"></script>
+    <script src="script/map-controller.js"></script>
+</body>
+
+</html>

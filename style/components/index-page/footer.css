@@ -1,0 +1,12 @@
+footer {
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--clr5);
+    height: 30vh;
+}
+
+footer ul li img {
+    width: 3rem;
+    margin: 10px;
+
+}

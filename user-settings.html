@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user-settings</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body class="index-body flex body-user-page " onload="onInitUserPage()">
+
+    <div class="header-wrapper">
+        <header class="main-header flex main-layout">
+            <h1 class="logo">UR<span>Lost</span></h1>
+            <nav></nav>
+        </header>
+    </div>
+
+    <section class="form-wrapper flex">
+        <form class="form-content flex align-center" id="frmRegistration" onsubmit="onSubmitForm(event)">
+            <div class="form-input-wrapper">
+                <label for="email">Email</label>
+                <input data-form="form-input" type="email" name="email" id="email" required>
+            </div>
+            <div class="form-input-wrapper">
+                <label for="colorBgc">Set color</label>
+                <input data-form="form-input" type="color" name="colorBgc" id="color-bgc">
+            </div>
+            <div class="form-input-wrapper">
+                <label for="colorFont">choose font color</label>
+                <input data-form="form-input" type="color" name="colorFont" id="color-font">
+            </div>
+            <div class="form-input-wrapper">
+                <label for="dob"> Birth date</label>
+                <input data-form="form-input" type="date" name="dob" id="dob">
+            </div>
+            <div class="form-input-wrapper">
+                <label for="time"> what was the time you were born at?</label>
+                <input data-form="form-input" type="time" name="time" id="time">
+            </div>
+            <div class="form-input-wrapper">
+                <label for="age">How old are you?</label>
+                <input onchange="renderAge(this)" data-form="form-input" type="range" name="age" id="age" min="14"
+                    max="120">
+                <span class="age-display"></span>
+            </div>
+
+
+            <button>Submit the form</button>
+        </form>
+    </section>
+    <div class="button-wrappers"> <a href="index.html"> back to main page</a> <a href="map.html">go to map page</a>
+    </div>
+    <footer class="flex justify-center align-center">
+        <h1 class="logo">UR<span>Lost</span></h1>
+        <small>cOfFeErIgHtS</small>
+        <ul class="flex clean-list">
+            <li><a href=""></a><img src="imgs/facebook-logo-png-38347.png" alt=""></li>
+            <li><a href=""></a><img src="imgs/instagram-icon-960.png" alt=""></li>
+            <li><a href=""></a><img src="imgs/twitter-icon-66.png" alt=""></li>
+        </ul>
+    </footer>
+
+    <script src="script/utilService.js"></script>
+    <script src="script/storageService.js"></script>
+    <script src="script/userService.js"></script>
+    <script src="script/user-controller.js"></script>
+</body>
+
+</html>

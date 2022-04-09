@@ -1,0 +1,21 @@
+.main-content {
+    width: 100%;
+    flex-direction: column;
+}
+
+.main-content-wrapper {
+
+    width: 100%;
+}
+
+.phone-img {
+
+    object-fit: cover;
+    height: 55rem;
+    margin: -15px;
+
+}
+
+.main-content-wrapper p {
+    padding-top: 20px;
+}
